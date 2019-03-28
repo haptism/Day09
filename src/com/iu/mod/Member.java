@@ -2,11 +2,13 @@ package com.iu.mod;
 
 //생성자를 만들기 위한 예제
 public class Member {
+	// getter 받기위한
+	// setter 저장하기 위한
 
 	private String name;
-	int age;
-	double weight;
-	double height;
+	private int age;
+	private double weight;
+	private double height;
 
 	public void setAge(int age) { // 메서드를 통해서 넣자
 		if (age > 0 && age < 130) {
@@ -24,7 +26,7 @@ public class Member {
 	}
 
 	public Member(String name, int age, double weight, double height) {
-		if (age > 0 && age < 120) {
+		if (age > 0 && age < 130) {
 			this.age = age;
 		} else {
 			this.age = 25;
