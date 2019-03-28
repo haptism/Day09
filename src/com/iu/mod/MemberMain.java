@@ -1,7 +1,7 @@
 
 package com.iu.mod;
 
-public class MemberMine {
+public class MemberMain {
 
 	public static void main(String[] args) {
 

@@ -2,6 +2,7 @@ package com.iu.mod;
 
 //생성자를 만들기 위한 예제
 public class Member {
+	
 	// getter 받기위한
 	// setter 저장하기 위한
 
@@ -9,6 +10,12 @@ public class Member {
 	private int age;
 	private double weight;
 	private double height;
+	
+	// 멤버변수가 100개
+
+		// 생성자 두개
+		// 디폴트 생성자
+		// 회원 정보를 매개변수로 받는 생성자
 
 	public void setAge(int age) { // 메서드를 통해서 넣자
 		if (age > 0 && age < 130) {
@@ -37,10 +44,6 @@ public class Member {
 		this.weight = weight;
 		this.height = height;
 	}
-
-	// 생성자 두개
-	// 디폴트 생성자
-	// 회원 정보를 매개변수로 받는 생성자
 
 	public void check() {
 		double st = (this.height - 100) * 0.95;
